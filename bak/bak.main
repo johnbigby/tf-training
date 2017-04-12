@@ -1,0 +1,29 @@
+#
+# DO NOT DELETE THESE LINES!
+#
+# Your AMI ID is:
+#
+#     ami-eea9f38e
+#
+# Your subnet ID is:
+#
+#     subnet-b30f9ceb
+#
+# Your security group ID is:
+#
+#     sg-834d35e4
+#
+# Your Identity is:
+#
+#     autodesk-wallaby
+#
+
+provider "aws" {
+  access_key = "AKIAIXUEGZQHYMZHATUQ"
+  secret_key = "BkWzCx5hzGdoDczboc6xhQdjEGHwH9Gcw8cUZJxB"
+  region     = "us-west-1"
+}
+
+resource "aws_instance" "web" {
+  # ...
+}
