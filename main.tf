@@ -17,7 +17,8 @@
 #
 #     autodesk-wallaby
 #
-
+resource ? _some bad thing{
+  
 terraform {
   backend "atlas" {
     name = "johnbigby/training"
